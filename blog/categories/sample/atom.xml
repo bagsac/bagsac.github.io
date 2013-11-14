@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: sample | bagsac Blog]]></title>
+  <link href="http://bagsac.github.io/blog/categories/sample/atom.xml" rel="self"/>
+  <link href="http://bagsac.github.io/"/>
+  <updated>2013-11-15T02:57:50+09:00</updated>
+  <id>http://bagsac.github.io/</id>
+  <author>
+    <name><![CDATA[bagsac]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://bagsac.github.io/blog/2013/11/15/hello-world/"/>
+    <updated>2013-11-15T02:36:00+09:00</updated>
+    <id>http://bagsac.github.io/blog/2013/11/15/hello-world</id>
+    <content type="html"><![CDATA[<ul>
+<li>This Page is sample.</li>
+<li>This Page is made by Octopress</li>
+<li>This Page is New page
+
+<h2>code &ndash; コードの挿入</h2></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
