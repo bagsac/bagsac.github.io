@@ -1,5 +1,12 @@
+html{
+    background: url(/images/line-tile.png?1384450219) top left #3D5358;
+}
 body>header{
     background: url(https://dl.dropboxusercontent.com/u/6824738/binary.gif) top left repeat #678391;
+}
+body>header h1 a, body>header h1 a:visited, body>header h1 a:hover {
+    color: #13232E;
+    text-decoration: none;
 }
 body>header h2{
     color: #284E68;
