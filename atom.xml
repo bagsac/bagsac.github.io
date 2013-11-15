@@ -4,7 +4,7 @@
   <title><![CDATA[Cybagnetics]]></title>
   <link href="http://bagsac.github.io/atom.xml" rel="self"/>
   <link href="http://bagsac.github.io/"/>
-  <updated>2013-11-15T05:26:10+09:00</updated>
+  <updated>2013-11-15T15:50:56+09:00</updated>
   <id>http://bagsac.github.io/</id>
   <author>
     <name><![CDATA[bagsac]]></name>
@@ -18,14 +18,46 @@
     <link href="http://bagsac.github.io/blog/2013/11/15/hello-world/"/>
     <updated>2013-11-15T02:36:00+09:00</updated>
     <id>http://bagsac.github.io/blog/2013/11/15/hello-world</id>
-    <content type="html"><![CDATA[<ul>
-<li>This Page is sample.</li>
-<li>This Page is made by Octopress</li>
-<li>This Page is New page
+    <content type="html"><![CDATA[<p>こんにちはバグバグです．今回ブログをリニューアルしました！
+リニューアルの理由は．．</p>
 
-<h2>code &ndash; コードの挿入</h2></li>
+<ul>
+<li>以前使っていたブログサイトが広告付きで，いろいろとイケてなかった</li>
+<li>毎回ブログ書くときにいろいろ操作が面倒だった</li>
+<li>もっとギークなブログシステムを使いたかった</li>
 </ul>
 
+
+<p>そこで！今回！完全に一般向けではない「OCTOPRESS」を導入することにしました！</p>
+
+<blockquote><p><a href="http://octopress.org/">OCTOPRESS</a>とは．．</p>
+
+<p>A blogging framework for hackers.</p></blockquote>
+
+<p>お！こりゃなんだかかっこいいですな！ハッカーのためのブログフレームワークとな！
+さすがにこれだけでは全くイメージが付かないと思うので，工程で表現したいと思います．</p>
+
+<blockquote><p>以前使っていたブログ</p></blockquote>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>端末からブラウザを立ち上げ，ブログ投稿専用ページにアクセス
+</span><span class='line'>簡単エディタとか意味の分からないエディタもしくはHTMLで直接記述
+</span><span class='line'>画像とか動画などのコンテンツを入れる際はサイズ指定したり，中央寄せなど面倒くさい調整をする
+</span><span class='line'>記事が完成したら投稿ボタンを押して投稿
+</span><span class='line'>ブログ更新が一定日数無いとトップにくそウザい広告がこれでもかと言わんばかりに表示される</span></code></pre></td></tr></table></div></figure>
+
+
+<blockquote><p>今回導入したブログ</p></blockquote>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>ターミナルだけで全て完結</span></code></pre></td></tr></table></div></figure>
+
+
+<p>うーーん極めてシンプル！まさしく A blogging framework for hackersですな！</p>
 ]]></content>
   </entry>
   

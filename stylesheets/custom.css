@@ -1,0 +1,18 @@
+body>header{
+    background: url(https://dl.dropboxusercontent.com/u/6824738/binary.gif) top left repeat #678391;
+}
+body>header h2{
+    color: #284E68;
+}
+aside.sidebar img{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: #f8f8f8 0.3em solid;
+}
+div#instagram{
+    padding-bottom: 20px;
+}
+div#instagram img{
+    width: 160px;
+}

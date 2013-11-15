@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="ja"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <title>Hello World - Cybagnetics</title>
   <meta name="author" content="bagsac">
 
   
-  <meta name="description" content="
-This Page is sample.
-This Page is made by Octopress
-This Page is New page code &ndash; コードの挿入 ">
+  <meta name="description" content="こんにちはバグバグです．今回ブログをリニューアルしました！
+リニューアルの理由は．． 以前使っていたブログサイトが広告付きで，いろいろとイケてなかった
+毎回ブログ書くときにいろいろ操作が面倒だった
+もっとギークなブログシステムを使いたかった そこで！今回！完全に一般向けではない「OCTOPRESS &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -24,6 +24,7 @@ This Page is New page code &ndash; コードの挿入 ">
   <link rel="canonical" href="http://bagsac.github.io/blog/2013/11/15/hello-world">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/custom.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Cybagnetics" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -53,7 +54,7 @@ This Page is New page code &ndash; コードの挿入 ">
   <header role="banner"><hgroup>
   <h1><a href="/">Cybagnetics</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>for all hackers.</h2>
   
 </hgroup>
 
@@ -73,6 +74,7 @@ This Page is New page code &ndash; コードの挿入 ">
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/link">Link</a></li>
 </ul>
 
 </nav>
@@ -120,14 +122,46 @@ This Page is New page code &ndash; コードの挿入 ">
   </header>
 
 
-<div class="entry-content"><ul>
-<li>This Page is sample.</li>
-<li>This Page is made by Octopress</li>
-<li>This Page is New page
+<div class="entry-content"><p>こんにちはバグバグです．今回ブログをリニューアルしました！
+リニューアルの理由は．．</p>
 
-<h2>code &ndash; コードの挿入</h2></li>
+<ul>
+<li>以前使っていたブログサイトが広告付きで，いろいろとイケてなかった</li>
+<li>毎回ブログ書くときにいろいろ操作が面倒だった</li>
+<li>もっとギークなブログシステムを使いたかった</li>
 </ul>
 
+
+<p>そこで！今回！完全に一般向けではない「OCTOPRESS」を導入することにしました！</p>
+
+<blockquote><p><a href="http://octopress.org/">OCTOPRESS</a>とは．．</p>
+
+<p>A blogging framework for hackers.</p></blockquote>
+
+<p>お！こりゃなんだかかっこいいですな！ハッカーのためのブログフレームワークとな！
+さすがにこれだけでは全くイメージが付かないと思うので，工程で表現したいと思います．</p>
+
+<blockquote><p>以前使っていたブログ</p></blockquote>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>端末からブラウザを立ち上げ，ブログ投稿専用ページにアクセス
+</span><span class='line'>簡単エディタとか意味の分からないエディタもしくはHTMLで直接記述
+</span><span class='line'>画像とか動画などのコンテンツを入れる際はサイズ指定したり，中央寄せなど面倒くさい調整をする
+</span><span class='line'>記事が完成したら投稿ボタンを押して投稿
+</span><span class='line'>ブログ更新が一定日数無いとトップにくそウザい広告がこれでもかと言わんばかりに表示される</span></code></pre></td></tr></table></div></figure>
+
+
+<blockquote><p>今回導入したブログ</p></blockquote>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>ターミナルだけで全て完結</span></code></pre></td></tr></table></div></figure>
+
+
+<p>うーーん極めてシンプル！まさしく A blogging framework for hackersですな！</p>
 </div>
 
 
@@ -193,8 +227,9 @@ This Page is New page code &ndash; コードの挿入 ">
   
     <section>
   <h1>About Me</h1>
-  <p>@bagsac</p>
-    <a class="twitter-timeline" href="https://twitter.com/bagsac" data-widget-id="270299407629549569">@bagsac からのツイート</a>
+  <p>@bagsac<br>腰履き愚連隊 計算機幾何学技術アーキテクチャCTO</p>
+  <div id="instagram" align="center"><a href="http://instagram.com/bagsac"><img src="https://dl.dropboxusercontent.com/u/6824738/instagram-icon.png"></a></div>
+  <a class="twitter-timeline" href="https://twitter.com/bagsac" data-widget-id="270299407629549569">@bagsac からのツイート</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </section>
 <section>
@@ -256,7 +291,7 @@ This Page is New page code &ndash; コードの挿入 ">
   
 
 <script type="text/javascript">
-      var disqus_shortname = 'bagsac';
+      var disqus_shortname = 'bagsacgithubio';
       
         
         // var disqus_developer = 1;
